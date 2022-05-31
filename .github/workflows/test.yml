@@ -20,6 +20,6 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}          
           files: src/apps/client/coverage/clover.xml
           flags: unittests
-          name: codecov-umbrella
+          name: strapi-landing-page-unit-tests
           fail_ci_if_error: true
           verbose: true

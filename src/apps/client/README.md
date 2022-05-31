@@ -10,6 +10,11 @@
 
 <small>All badges are links to each doc</small>
 
+## Test Status 🐛
+
+[![codecov](https://codecov.io/gh/GuiMoraesDev/strapi-landing-page/branch/main/graph/badge.svg?token=0XJwssO6ip)](https://codecov.io/gh/GuiMoraesDev/strapi-landing-page)
+[![Tests](https://github.com/GuiMoraesDev/strapi-landing-page/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/GuiMoraesDev/strapi-landing-page/actions/workflows/test.yml)
+
 ## Description of that project 📖
 
 This project is about the client page that is the base to render all contents created on Strapi server
