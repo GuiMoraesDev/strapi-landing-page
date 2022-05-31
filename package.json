@@ -10,6 +10,7 @@
   "scripts": {
     "build": "lerna run --parallel build",
     "start": "lerna run --parallel start",
+    "dev": "lerna run --parallel dev",
     "test": "lerna run --parallel test",
     "lint": "lerna run --parallel lint",
     "prepare": "husky install"
