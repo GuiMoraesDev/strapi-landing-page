@@ -1,11 +1,6 @@
 name: Tests
 
-on: 
-  push: 
-    paths:
-      - 'src/apps/client/**'
-    branches:
-      - main
+on: push
 
 jobs:
   Tests:
