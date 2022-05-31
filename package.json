@@ -11,14 +11,25 @@
     "build": "lerna run --parallel build",
     "start": "lerna run --parallel start",
     "test": "lerna run --parallel test",
-    "lint": "lerna run --parallel lint"
+    "lint": "lerna run --parallel lint",
+    "prepare": "husky install"
   },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
     ]
   },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "yarn eslint --max-warnings=0 --fix",
+      "yarn test --findRelatedTests --bail"
+    ]
+  },
   "devDependencies": {
-    "lerna": "^5.0.0"
+    "@commitlint/cli": "^17.0.1",
+    "@commitlint/config-conventional": "^17.0.0",
+    "husky": "^8.0.1",
+    "lerna": "^5.0.0",
+    "lint-staged": "^12.5.0"
   }
 }
