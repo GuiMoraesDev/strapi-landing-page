@@ -1,6 +1,7 @@
 {
-  "name": "next-boilerplate",
+  "name": "client-page",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
