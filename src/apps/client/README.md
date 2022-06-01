@@ -1,6 +1,6 @@
 # Client Page
 
-<Img src="https://github.com/GuiMoraesDev/strapi-landing-page/blob/main/src/shared/assets/images/nextjs-logo.png" alt="Next.js logo" height="100px" align="right" />
+<Img src="../../shared/assets/images/nextjs-logo.png" alt="Next.js logo" height="100px" align="right" />
 
 [![next.js](https://img.shields.io/badge/next.js-12.0.10-000000?logo=Next.js)](https://reactjs.org/)
 [![typescript](https://img.shields.io/badge/typescript-%5E4.5.5-blue?logo=Typescript)](https://www.typescriptlang.org/)

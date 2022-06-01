@@ -1,8 +1,8 @@
 # Strapi server
 
-<Img src="https://github.com/GuiMoraesDev/strapi-landing-page/blob/main/src/shared/assets/images/strapi-logo.png" alt="Strapi logo" height="100px" align="right" />
+<Img src="../../shared/assets/images/strapi-logo.png" alt="Strapi logo" height="100px" align="right" />
 
-[![strapi](<https://img.shields.io/badge/strapi-3.6.8-rgb(0%2C%20126%2C%20255)?logo=Strapi>)](https://strapi.io/)
+[![strapi](<https://img.shields.io/badge/strapi-4.1.12-rgb(0%2C%20126%2C%20255)?logo=Strapi>)](https://strapi.io/)
 
 </br>
 
