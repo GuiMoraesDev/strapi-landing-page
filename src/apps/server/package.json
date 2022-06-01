@@ -11,10 +11,11 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.1.12",
-    "@strapi/plugin-users-permissions": "4.1.12",
     "@strapi/plugin-i18n": "4.1.12",
-    "pg": "8.6.0"
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/strapi": "4.1.12",
+    "pg": "8.6.0",
+    "strapi-plugin-ckeditor5": "^2.1.1-rc.1"
   },
   "author": {
     "name": "A Strapi developer"
