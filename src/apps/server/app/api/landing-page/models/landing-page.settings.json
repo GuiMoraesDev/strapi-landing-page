@@ -36,6 +36,12 @@
       "type": "component",
       "repeatable": false,
       "component": "page.session-tech"
+    },
+    "sessionConcepts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.session-concepts",
+      "required": true
     }
   }
 }
