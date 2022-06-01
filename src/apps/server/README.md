@@ -10,21 +10,19 @@
 
 ## Description of that project 📖
 
-This project is about the client page that is the base to render all contents created on Strapi server
+This project is about the client page that is the base to render all contents created on Strapi
 
 ## Project Folders Structure 👷
 
 ```code
 .
-├── app..............................# projects folders were created here;
-│    ├── api.........................# contains the api files setted by strapi UI;
-│    ├── config......................# contains the strapi configs files;
-│    │   ├── functions...............# contains functions files as cron or bootstrap functions;
-│    │   │   └── responses...........# contains files to set the default responses by status code;
-│    │   └── [...]...................# contains the default config files;
-│    ├── extensions..................# contains the extensions/plugins used by strapi;
-│    │   └── [extentions-folders]
-│    └── public......................# default exported public folder;
-│        └── uploads.................# by default uploads files are set in this folder;
-└── [...]............................# root files as environment, docker-compose file, etc;
+├── config......................# contains the strapi configs files;
+├── database....................# contains the strapi database files (migrations, etc);
+├── public......................# default exported public folder;
+│   └── uploads.................# by default uploads files are set in this folder;
+└── src.........................# projects folders were created here;
+    ├── admin...................# contains the config files to this project;
+    ├── api.....................# contains the api files setted by strapi UI;
+    ├── extensions..............# contains the extensions/plugins used by strapi;
+    └── [...]...................#
 ```

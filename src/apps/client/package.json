@@ -1,5 +1,5 @@
 {
-  "name": "client-page",
+  "name": "@strapi-monorepo/client-page",
   "private": true,
   "version": "1.0.0",
   "scripts": {
