@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_page_headers",
+  "collectionName": "components_page_session_about_projects",
   "info": {
-    "name": "header",
-    "icon": "heading",
-    "description": ""
+    "name": "sessionAboutProject",
+    "icon": "info"
   },
   "options": {},
   "attributes": {
@@ -12,20 +11,14 @@
       "required": true
     },
     "description": {
-      "type": "text",
+      "type": "richtext",
       "required": true
     },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "page.button"
-    },
-    "media": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": true,
