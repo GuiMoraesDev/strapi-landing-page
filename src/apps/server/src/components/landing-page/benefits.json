@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_landing_page_benefits",
+  "info": {
+    "displayName": "benefits",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

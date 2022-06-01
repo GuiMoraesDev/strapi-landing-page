@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_landing_page_concepts",
+  "info": {
+    "displayName": "concepts",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

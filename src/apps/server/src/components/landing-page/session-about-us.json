@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_landing_page_session_aboutuses",
+  "info": {
+    "displayName": "sessionAboutUs",
+    "icon": "user-astronaut"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "authors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::author.author"
+    }
+  }
+}

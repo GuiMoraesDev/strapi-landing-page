@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_page_session_reviews",
+  "info": {
+    "displayName": "sessionReviews",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "reviews": {
+      "displayName": "reviews",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.reviews",
+      "required": true,
+      "min": 4
+    }
+  }
+}

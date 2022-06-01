@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_landing_page_session_agenda",
+  "info": {
+    "displayName": "sessionAgenda",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

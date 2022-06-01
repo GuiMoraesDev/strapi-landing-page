@@ -26,6 +26,69 @@
       "repeatable": false,
       "component": "landing-page.header",
       "required": true
+    },
+    "sessionAboutProject": {
+      "displayName": "sessionAboutProject",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.session-about-project",
+      "required": true
+    },
+    "sessionTech": {
+      "displayName": "sessionTech",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.session-tech",
+      "required": true
+    },
+    "sessionConcepts": {
+      "displayName": "sessionConcepts",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.session-concepts",
+      "required": true
+    },
+    "sessionModules": {
+      "displayName": "sessionModules",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.session-modules",
+      "required": true
+    },
+    "sessionAgenda": {
+      "displayName": "sessionAgenda",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.session-agenda",
+      "required": true
+    },
+    "sessionPricingBox": {
+      "displayName": "sessionPricingBox",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.session-pricing-box",
+      "required": true
+    },
+    "sessionAboutUs": {
+      "displayName": "sessionAboutUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.session-about-us",
+      "required": true
+    },
+    "sessionReviews": {
+      "displayName": "sessionReviews",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.session-reviews",
+      "required": true
+    },
+    "sessionFaq": {
+      "displayName": "sessionFaq",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.session-faq",
+      "required": true
     }
   }
 }
