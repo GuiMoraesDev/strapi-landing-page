@@ -69,6 +69,12 @@
       "repeatable": false,
       "component": "page.session-reviews",
       "required": true
+    },
+    "sessionFaq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.session-faq",
+      "required": true
     }
   }
 }

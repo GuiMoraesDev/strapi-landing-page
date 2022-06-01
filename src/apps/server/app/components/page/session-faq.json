@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_session_faqs",
+  "info": {
+    "name": "sessionFaq",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.questions",
+      "required": true,
+      "min": 2
+    }
+  }
+}
