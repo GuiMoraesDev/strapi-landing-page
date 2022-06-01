@@ -42,6 +42,12 @@
       "repeatable": false,
       "component": "page.session-concepts",
       "required": true
+    },
+    "sessionModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.session-modules",
+      "required": true
     }
   }
 }
