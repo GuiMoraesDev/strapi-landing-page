@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_landing_page_session_pricing_boxes",
+  "info": {
+    "displayName": "sessionPricingBox",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "decimal",
+      "required": true
+    },
+    "numberInstallments": {
+      "type": "integer",
+      "required": true
+    },
+    "priceInstallments": {
+      "type": "decimal",
+      "required": true
+    },
+    "benefits": {
+      "displayName": "benefits",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.benefits",
+      "required": true,
+      "min": 2
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.button",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_page_session_faqs",
+  "info": {
+    "displayName": "sessionFaq",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "questions": {
+      "displayName": "question",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.question",
+      "required": true,
+      "min": 2
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_page_session_concepts",
+  "info": {
+    "displayName": "sessionConcepts",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "conecpts": {
+      "displayName": "concepts",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.concepts",
+      "required": true,
+      "min": 3
+    }
+  }
+}

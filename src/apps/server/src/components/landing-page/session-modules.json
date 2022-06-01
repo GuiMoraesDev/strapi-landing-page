@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_page_session_modules",
+  "info": {
+    "displayName": "sessionModules",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "displayName": "modules",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.modules",
+      "required": true,
+      "min": 2
+    }
+  }
+}

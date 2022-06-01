@@ -1,0 +1,14 @@
+version: '3'
+name: strapi-database
+services:
+  postgres:
+    container_name: landing-page-strapi-postgres
+    image: postgres
+    environment:
+      POSTGRES_DB: landing-page-strapi-api-db
+      POSTGRES_USER: landing-page-strapi
+      POSTGRES_PASSWORD: landing-page-strapi
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data:/var/lib/postgresql/data

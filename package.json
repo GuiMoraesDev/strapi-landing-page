@@ -1,11 +1,12 @@
 {
-  "name": "strapi-landing-page-monorepo",
+  "name": "strapi-monorepo",
   "version": "1.0.0",
   "author": "Guilherme Moraes",
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "src/apps/client"
+    "src/apps/client",
+    "src/apps/server"
   ],
   "scripts": {
     "build": "lerna run --parallel build",

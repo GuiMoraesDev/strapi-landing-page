@@ -3,6 +3,7 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "packages": [
-    "src/apps/client"
+    "src/apps/client",
+    "src/apps/server"
   ]
 }
