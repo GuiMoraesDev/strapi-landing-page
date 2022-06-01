@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_session_teches",
+  "info": {
+    "name": "sessionTech",
+    "icon": "tools",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "techIcons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.tech-icons",
+      "required": true,
+      "min": 5,
+      "max": 15
+    }
+  }
+}
